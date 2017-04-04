@@ -21,8 +21,8 @@ template_dir = os.path.join(os.path.dirname(__file__), 'templates')
 jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir),
 							   autoescape = True)
 
-SECRET = 'atie'
-API_KEY = 'AIzaSyBHh_0g15kFsYjOqpjNUETasu2DxXfUdvk'
+SECRET = 'SECRET'
+API_KEY = 'API_KEY'
 
 DEBUG = bool(os.environ['SERVER_SOFTWARE'].startswith('Development'))
 if DEBUG:
